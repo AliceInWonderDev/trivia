@@ -1,0 +1,60 @@
+html {
+    background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2013/12/17/197494/ea10a7648fdac42261f10b6698cc9514.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-position: bottom;
+  filter:brightness(1);
+  }
+  
+  h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+  }
+  
+  h4 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 13px;
+  }
+  
+  legend {
+    font-size: 22px;
+    font-family: 'Bangers', cursive;
+  }
+  
+  #marvelButton{
+      background-color: white;
+      padding: 12px 22px;
+      margin: 10px 20px;
+      color: inherit;
+      transition: all .5s;
+      border: 3px solid #fff;
+      border-radius: 30px;
+      font-family: 'Cabin Sketch',    cursive; 
+      font-size: 13px;
+    
+  }
+  
+  #dcComicsButton {
+      background-color: white;
+      padding: 12px 22px;
+      margin: 10px 20px;
+      color: inherit;
+      transition: all .5s;
+      border: 3px solid #fff;
+      border-radius: 30px;
+      font-family: 'Cabin Sketch',    cursive; 
+      font-size: 13px;
+  }
+  
+  #playAgain {
+    background-color: white;
+      padding: 12px 22px;
+      margin: 10px 20px;
+      color: inherit;
+      transition: all .5s;
+      border: 3px solid #fff;
+      border-radius: 30px;
+      font-family: 'Cabin Sketch',    cursive; 
+      font-size: 13px;
+  }

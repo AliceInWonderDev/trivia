@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+  <link href="style.css"
+      rel="stylesheet" type="text/css">
+</head>
+
+  <body>
+    <center><div id="bienvenida">
+  <h1><center>Bienvenida a La Supertrivia</center></h1>
+    
+   <center> <p class="txt_nombre">Para comenzar el juego <br/> Ingresa tu nombre</p>
+    <form action="javascript:void(0);">
+    <input type="text" id="nombre" name="name" value="" required><br><br/>
+    <button type="submit" class="boton" onclick="capturar()">Enviar</button>
+    </center></form>
+      </div></center>
+  <h4><center>Prueba tus conocimientos del mundo MARVEL y DC COMICS</center></h4>
+    
+      <h2>
+    <center>
+    <form action="javascript:void(0);">
+         
+    <legend>¡A JUGAR!</legend>
+   
+                               
+</form>
+      
+  </center>
+   </h2>  
+    <div id="categoria">
+  <center> <button type='submit' id='marvelButton' onclick='marvel()'>Juguemos con Marvel</button> </center>   
+       
+      <center><button onclick="dccomics()" id="dcComicsButton">Juguemos con DC Comics</center></button>
+        
+        <center><button onclick="playAgain()" id="playAgain">¿Volver a jugar?</button></center>
+        
+    </div>    
+        
+  <script src="app.js"></script>  
+  
+</body>
+</html>
